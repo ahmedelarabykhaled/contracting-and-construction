@@ -1,0 +1,113 @@
+html{
+	height: 100%;
+	body{
+		height: 100%;
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 16px;
+            font-weight: 800;
+            color: #000!important;
+        }
+
+		nav{
+			.navbar-brand img{
+				width: 70px;
+			}
+			.dropdown-toggle::before {
+    			display: inline-block;
+    			width: 0;
+    			height: 0;
+    			margin-left: .255em;
+    			vertical-align: .255em;
+    			content: "";
+    			border-top: .3em solid;
+    			border-right: .3em solid transparent;
+    			border-bottom: 0;
+    			border-left: .3em solid transparent;
+			}
+			.dropdown-toggle::after{
+				display: none;
+			}
+			.dropdown-menu{
+				top: 46px;
+                z-index: 893456348744;
+                .dropdown-item:hover{
+                    background-color: #ccc;
+                }
+			}
+
+		}
+
+
+
+		.block1{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			.carousel{
+				width: 100% !important;
+				height: 100% !important;
+				.carousel-inner{
+					height: 100%;
+					img{
+						height: 100% !important;
+					}
+				}
+				
+			}
+			.upper{
+				position: absolute;
+				z-index: 10000;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.5);
+				color: #fff;
+				
+				display: flex;
+				justify-content: center;
+                align-items: center;
+		}
+	    }
+	    .block2{
+		    .para{
+			
+		}
+	        .line{
+				width: 100px;
+				height: 3px;
+				background-color: #666;
+			}
+
+	    }
+        .nav-tabs{
+            width: 340px;
+            a{
+                color: #000;
+            }
+        }
+
+        .block5 .article{
+
+        }
+        .footer{
+            background-color: #333;
+            a,h2{
+                color: #ccc;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #005cbf;
+            }
+        }
+        @media(max-width: 800px){
+            .block1 .upper .para h2{
+                font-size: 40px;
+            }
+        }
+        @media(max-width: 600px){
+            .block1 .upper .para h2{
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
